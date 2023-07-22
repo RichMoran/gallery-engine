@@ -1,2 +1,2 @@
 # gallery-engine
-Display photos on
+Display photos from local fileserver on local devices
