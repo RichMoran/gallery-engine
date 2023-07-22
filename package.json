@@ -1,22 +1,21 @@
 {
   "name": "gallery-engine",
-  "version": "0.0.1",
-  "description": "serve images locally",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "serverstart": "DEBUG=gallery-engine:* npm run devstart"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/RichMoran/gallery-engine.git"
-  },
-  "author": "RichMoran",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/RichMoran/gallery-engine/issues"
-  },
-  "homepage": "https://github.com/RichMoran/gallery-engine#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "http-errors": "~1.6.3",
+    "morgan": "~1.9.1",
+    "pug": "^2.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
