@@ -3,7 +3,8 @@ var router = express.Router();
 
 // GET an image
 router.get('/', function (req, res, next) {
-  res.send('respond with an image');
+  // res.send('respond with an image');
+  res.render('image', { title: 'Image' });
 });
 
 module.exports = router;

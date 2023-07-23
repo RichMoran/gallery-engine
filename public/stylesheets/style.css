@@ -1,8 +1,74 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #00b7ff;
+}
+
+/* this css is for the fading */
+.fadein {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: auto;
+}
+
+/* .fadein img {
+  position: absolute;
+  left: -65px;
+  top: 0;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+  animation-name: fade;
+  animation-iteration-count: infinite;
+  animation-duration: 20s;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade2 {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#photo1 {
+}
+
+#photo2 {
+  animation-delay: -10s;
+} */
+
+#photo1 {
+  opacity: 1;
 }
