@@ -1,5 +1,13 @@
 doctype html
 html
+  script.
+    function changeImge() {
+
+      const img = document.getElementById("photo1");
+      img.setAttribute( 'src', 'photos/IMG_20220411_193952_1.jpg')
+    }
+    setTimeout(function() { changeImge(); }, 5000);
+
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
